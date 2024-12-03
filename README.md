@@ -32,3 +32,58 @@ Tudo isso é feito com o auxílio da biblioteca **Pillow (PIL)**, amplamente uti
   ```bash
   pip install pillow
   ```
+
+  ---
+
+## Como usar
+Baixe o código
+Salve o script como:
+```bash
+processador_imagens.py.
+```
+
+• Escolha uma imagem
+Coloque a imagem no mesmo diretório do script e nomeie-a como sua_imagem.jpg (ou ajuste o caminho no código).
+
+***Execute o script***
+No terminal ou editor, execute:
+```bash
+python processador_imagens.py
+```
+**Resultados**
+
+O arquivo entrada.txt terá os dados da imagem em texto.
+As imagens processadas serão salvas como saida_cinza.png e saida_binaria.png.
+As imagens também serão exibidas automaticamente.
+
+## Personalizações
+Alterar o limite de binarização
+Por padrão, o limite para binarizar é 128. Para usar outro valor, altere esta linha no código:
+```bash
+imagem_binaria = binarizar(imagem_cinza, limite=100)
+```
+
+## Alterar a imagem de entrada
+Basta trocar o nome da imagem nesta linha:
+```bash
+caminho_imagem = 'minha_nova_imagem.jpg'
+```
+
+## Tratamento de erros
+**Se algo der errado:**
+
+• Certifique-se de que o arquivo da imagem está no diretório correto.
+
+• Verifique se o nome do arquivo foi escrito corretamente.
+
+• Consulte as mensagens de erro no terminal para detalhes.
+
+## Contribuições
+Este projeto foi criado para fins educativos. Fique à vontade para sugerir melhorias ou reportar problemas!
+
+**Divirta-se processando imagens!**
+
+
+
+
+
